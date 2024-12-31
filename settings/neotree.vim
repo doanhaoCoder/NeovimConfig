@@ -45,3 +45,5 @@ require("neo-tree").setup({
 }
 })
 EOF
+
+nnoremap <silent> <F5> :Neotree<CR>
