@@ -1,0 +1,83 @@
+{
+    "languageserver": {
+        "tsserver": {
+            "command": "typescript-language-server",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "javascript",
+                "javascriptreact",
+                "typescript",
+                "typescriptreact"
+            ]
+        },
+        "python": {
+            "command": "pyright",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "python"
+            ]
+        },
+        "html": {
+            "command": "vscode-html-languageserver",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "html"
+            ]
+        },
+        "css": {
+            "command": "vscode-css-languageserver",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "css",
+                "scss",
+                "less"
+            ]
+        },
+        "jsonls": {
+            "command": "vscode-json-languageserver",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "json"
+            ]
+        },
+        "yaml": {
+            "command": "yaml-language-server",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "yaml"
+            ]
+        },
+        "xml": {
+            "command": "vscode-xml-language-server",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "xml"
+            ]
+        }
+    },
+    "prettier.enable": true,
+    "prettier.requireConfig": true,
+    "eslint.enable": true,
+    "eslint.filetypes": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "tsserver.enable": true,
+    "pyright.enable": true
+}

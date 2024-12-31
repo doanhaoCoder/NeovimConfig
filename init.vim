@@ -27,6 +27,10 @@ Plug 'folke/ts-comments.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'HiPhish/rainbow-delimiters.nvim'
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" :CocInstall coc-json coc-tsserver
+
+
 call plug#end()
 
 colorscheme onedark
