@@ -19,12 +19,13 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'lewis6991/gitsigns.nvim'
 
-Plug 'folke/ts-comments.nvim'
-Plug 'echasnovski/mini.pairs'
-
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'windwp/nvim-ts-autotag'
-Plug 'nvim-treesitter/nvim-treesitter-textobjects'
+Plug 'echasnovski/mini.pairs'
+Plug 'windwp/nvim-ts-autotag' 
+Plug 'folke/ts-comments.nvim'
+
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'HiPhish/rainbow-delimiters.nvim'
 
 call plug#end()
 

@@ -28,6 +28,7 @@ require("neo-tree").setup({
       },
       ["P"] = { "toggle_preview", config = { use_float = false } },
     },
+    width = 0.25, 
   },
   default_component_configs = {
     indent = {
@@ -46,4 +47,4 @@ require("neo-tree").setup({
 })
 EOF
 
-nnoremap <silent> <F5> :Neotree<CR>
+nnoremap <silent> <F5> :Neotree toggle<CR>

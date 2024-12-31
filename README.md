@@ -1,0 +1,1 @@
+fzf bat ripgrep xclip plugvim
