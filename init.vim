@@ -23,6 +23,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'echasnovski/mini.pairs'
 Plug 'windwp/nvim-ts-autotag' 
 Plug 'folke/ts-comments.nvim'
+Plug 'brenoprata10/nvim-highlight-colors'
 
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'HiPhish/rainbow-delimiters.nvim'

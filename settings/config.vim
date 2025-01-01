@@ -31,5 +31,15 @@ set clipboard=unnamedplus
 nnoremap <leader>y "+y
 nnoremap <leader>p "+p
 
-nnoremap <F5> :Files<CR>
-nnoremap <F6> :Rg<CR>
+nnoremap <leader>sh :split<CR>
+nnoremap <leader>sv :vsplit<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+nnoremap <A-j> :move .+1<CR>==
+nnoremap <A-k> :move .-2<CR>==
+
+nnoremap <F6> :Files<CR>
+nnoremap <F7> :Rg<CR>

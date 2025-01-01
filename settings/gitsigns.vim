@@ -15,6 +15,7 @@ require("gitsigns").setup({
     topdelete = { text = "" },
     changedelete = { text = "▎" },
   },
+  current_line_blame = true,  -- Hiển thị tên người commit ở dòng hiện tại
   on_attach = function(buffer)
     local gs = package.loaded.gitsigns
 
