@@ -1,1 +1,1 @@
-fzf bat ripgrep xclip plugvim
+fzf bat ripgrep xclip plugvim nodejs pip
